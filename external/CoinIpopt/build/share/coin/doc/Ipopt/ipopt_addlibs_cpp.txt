@@ -1,0 +1,1 @@
+-L/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/lib -L/usr/local/lib -lipopt -llapack -lblas -lm -ldl -lcoinhsl

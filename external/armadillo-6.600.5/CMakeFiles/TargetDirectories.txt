@@ -1,0 +1,7 @@
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/armadillo-6.600.5/CMakeFiles/install/strip.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/armadillo-6.600.5/CMakeFiles/install/local.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/armadillo-6.600.5/CMakeFiles/install.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/armadillo-6.600.5/CMakeFiles/list_install_components.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/armadillo-6.600.5/CMakeFiles/rebuild_cache.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/armadillo-6.600.5/CMakeFiles/edit_cache.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/armadillo-6.600.5/CMakeFiles/armadillo.dir

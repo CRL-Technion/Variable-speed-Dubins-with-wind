@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="VarSpeedDubins"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VarSpeed2WoRotation">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/libVarSpeed2WoRotation.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 VarSpeed2WoRotation"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VarSpeed2WoRotation/fast">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/libVarSpeed2WoRotation.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 VarSpeed2WoRotation/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VarSpeed2WindWoIO">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/libVarSpeed2WindWoIO.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 VarSpeed2WindWoIO"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VarSpeed2WindWoIO/fast">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/libVarSpeed2WindWoIO.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 VarSpeed2WindWoIO/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VarSpeed2">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/libVarSpeed2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 VarSpeed2"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VarSpeed2/fast">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/libVarSpeed2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 VarSpeed2/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VarSpeed2WoRotationAllTransitionsForLowerBoundTest">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/VarSpeed2WoRotationAllTransitionsForLowerBoundTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 VarSpeed2WoRotationAllTransitionsForLowerBoundTest"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VarSpeed2WoRotationAllTransitionsForLowerBoundTest/fast">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/VarSpeed2WoRotationAllTransitionsForLowerBoundTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 VarSpeed2WoRotationAllTransitionsForLowerBoundTest/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VarSpeed2WoRotationAllTransitions">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/VarSpeed2WoRotationAllTransitions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 VarSpeed2WoRotationAllTransitions"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VarSpeed2WoRotationAllTransitions/fast">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/VarSpeed2WoRotationAllTransitions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 VarSpeed2WoRotationAllTransitions/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testEndpointAllCands">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testEndpointAllCands" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testEndpointAllCands"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testEndpointAllCands/fast">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testEndpointAllCands" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testEndpointAllCands/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VarSpeedDubins">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/lib/libVarSpeedDubins.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 VarSpeedDubins"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VarSpeedDubins/fast">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/lib/libVarSpeedDubins.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 VarSpeedDubins/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testEndpointAllPaths">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testEndpointAllPaths" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testEndpointAllPaths"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testEndpointAllPaths/fast">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testEndpointAllPaths" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testEndpointAllPaths/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testPlotAllPathTypes">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testPlotAllPathTypes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testPlotAllPathTypes"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testPlotAllPathTypes/fast">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testPlotAllPathTypes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testPlotAllPathTypes/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testPlotPath">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testPlotPath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testPlotPath"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testPlotPath/fast">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testPlotPath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testPlotPath/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testSolveSinglePath_34Cands">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testSolveSinglePath_34Cands" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testSolveSinglePath_34Cands"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testSolveSinglePath_34Cands/fast">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testSolveSinglePath_34Cands" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testSolveSinglePath_34Cands/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testSolveAllPaths">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testSolveAllPaths" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testSolveAllPaths"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testSolveAllPaths/fast">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testSolveAllPaths" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testSolveAllPaths/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testSolveAllWind">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testSolveAllWind" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testSolveAllWind"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testSolveAllWind/fast">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testSolveAllWind" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testSolveAllWind/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testSolveSinglePath">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testSolveSinglePath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testSolveSinglePath"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testSolveSinglePath/fast">
+				<Option output="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/bin/testSolveSinglePath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/include/coin"/>
+					<Add directory="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 testSolveSinglePath/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/programs/VarSpeed2WoRotationAllTransitions.cpp">
+			<Option target="VarSpeed2WoRotationAllTransitions"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/programs/VarSpeed2WoRotationAllTransitionsForLowerBoundTest.cpp">
+			<Option target="VarSpeed2WoRotationAllTransitionsForLowerBoundTest"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/programs/testEndpointAllCands.cpp">
+			<Option target="testEndpointAllCands"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/programs/testEndpointAllPaths.cpp">
+			<Option target="testEndpointAllPaths"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/programs/testPlotAllPathTypes.cpp">
+			<Option target="testPlotAllPathTypes"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/programs/testPlotPath.cpp">
+			<Option target="testPlotPath"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/programs/testSolveAllPaths.cpp">
+			<Option target="testSolveAllPaths"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/programs/testSolveAllWind.cpp">
+			<Option target="testSolveAllWind"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/programs/testSolveSinglePath.cpp">
+			<Option target="testSolveSinglePath"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/programs/testSolveSinglePath_34Cands.cpp">
+			<Option target="testSolveSinglePath_34Cands"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/programs2/VarSpeed2.cpp">
+			<Option target="VarSpeed2"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/programs2/VarSpeed2WindWoIO.cpp">
+			<Option target="VarSpeed2WindWoIO"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/programs2/VarSpeed2WoRotation.cpp">
+			<Option target="VarSpeed2WoRotation"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/MathTools.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/MathTools.h">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/MathToolsArma_Combinatronics.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/MathToolsArma_Combinatronics.h">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/MathToolsArma_Geometry.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/MathToolsArma_Geometry.h">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/MathToolsArma_OctavePlotting.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/MathToolsArma_OctavePlotting.h">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/MathToolsArma_Polytopes.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/MathToolsArma_Polytopes.h">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/MathToolsArma_VectorOperators.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/MathToolsArma_VectorOperators.h">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/MathToolsArma_cddlib.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/RobustDubins_Path.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/RobustDubins_Path.h">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/RobustDubins_Problem.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/RobustDubins_Problem.h">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/RobustDubins_Solver.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/RobustDubins_Solver.h">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/RobustDubins_Utils.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/RobustDubins_Utils.h">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDNLP.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDNLP.h">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDPath.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDPath.h">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDProblem.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDProblem.h">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDSolver.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDSolver.h">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDUtils_costFunction.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDUtils_debug.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDUtils_displacementsToPath.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDUtils_expandParamsShort.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDUtils_guessStartPoint.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDUtils_linearConstraints.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDUtils_nonlinearEqualityConstraintJacobian.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDUtils_nonlinearInequalityConstraints.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDUtils_pathGeneration.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDUtils_pathProperties.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/src/VSDUtils_suboptimalityConditions.cpp">
+			<Option target="VarSpeedDubins"/>
+		</Unit>
+		<Unit filename="/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

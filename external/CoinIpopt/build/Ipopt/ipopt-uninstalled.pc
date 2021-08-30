@@ -1,0 +1,10 @@
+prefix=/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build
+libdir=/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/Ipopt/src/Interfaces
+
+Name: IPOPT
+Description: Interior Point Optimizer
+URL: https://projects.coin-or.org/Ipopt
+Version: 3.12
+Libs: ${libdir}/libipopt.la -llapack -lblas -lm  -ldl
+Cflags: -I/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/Ipopt/src/Interfaces -I/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/Ipopt/src/Common -I/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/Ipopt/src/LinAlg -I/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/Ipopt/src/Algorithm -I/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/Ipopt/src/contrib/CGPenalty -I/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/Ipopt/src/contrib/LinearSolverLoader -I/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/external/CoinIpopt/build/Ipopt/src/Common
+Requires: coinhsl >= 1.3 

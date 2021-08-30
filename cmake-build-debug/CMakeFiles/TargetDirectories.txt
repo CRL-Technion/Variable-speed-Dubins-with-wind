@@ -1,0 +1,16 @@
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/VarSpeed2WoRotation.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/VarSpeed2WindWoIO.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/VarSpeed2.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/VarSpeed2WoRotationAllTransitionsForLowerBoundTest.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/VarSpeed2WoRotationAllTransitions.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/testEndpointAllCands.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/VarSpeedDubins.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/testEndpointAllPaths.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/testPlotAllPathTypes.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/testPlotPath.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/testSolveSinglePath_34Cands.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/testSolveAllPaths.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/testSolveAllWind.dir
+/home/doron/Desktop/git-clones/Variable-speed-Dubins-with-wind/cmake-build-debug/CMakeFiles/testSolveSinglePath.dir
