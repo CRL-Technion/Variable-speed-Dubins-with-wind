@@ -4,7 +4,7 @@ This code implements a minimum-time planar path planning algorithm for a kinemat
 This work in a generalization of extinct work that solve this problem of finding the time-optimal path between two system's configurations but without wind (https://github.com/robotics-uncc/VariableSpeedDubins).
 
 <p align="center"> 
-<img src="https://i.ibb.co/vwJHSpm/map-40-tstareps-4-windx-04-windy-01-1.png" width="300">
+<img src="https://live.staticflickr.com/65535/51855739706_3f221bf11d_k.jpg" width="300">
 </p>
 
 ## Dependencies:
