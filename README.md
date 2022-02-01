@@ -31,5 +31,6 @@ https://doi.org/10.2514/1.G001317
 
 ## Contact:
 Doron Pinsky, doron.pinsky@campus.technion.ac.il
+
 Petr Váňa, vanapet1@fel.cvut.cz
 
